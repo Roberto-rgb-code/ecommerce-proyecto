@@ -1,0 +1,13 @@
+@mixin boton-estilo($color) {
+    background-color: $color;
+    color: white;
+    padding: $espaciado;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+  

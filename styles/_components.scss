@@ -1,0 +1,60 @@
+body {
+    font-family: $fuente-principal;
+    background-color: $color-fondo;
+    color: $color-texto;
+    margin: 0;
+  }
+  
+  .navbar {
+    background-color: $color-primario;
+    color: white;
+    padding: $espaciado;
+  
+    .logo {
+      font-size: 24px;
+    }
+  
+    .menu a {
+      color: white;
+      margin-right: $espaciado;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  .contenido {
+    padding: 2rem;
+  
+    .producto {
+      @extend %bloque-base;
+  
+      &__titulo {
+        font-size: 20px;
+      }
+  
+      &__descripcion {
+        font-size: 16px;
+      }
+    }
+  }
+  
+  .boton {
+    &--primario {
+      @include boton-estilo($color-primario);
+    }
+  
+    &--secundario {
+      @include boton-estilo($color-secundario);
+    }
+  }
+  
+  .footer {
+    text-align: center;
+    padding: $espaciado;
+    background-color: $color-primario;
+    color: white;
+  }
+  

@@ -1,0 +1,81 @@
+.contenido .producto {
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: white;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #3498db;
+  color: white;
+  padding: 16px;
+}
+
+.navbar .logo {
+  font-size: 24px;
+}
+
+.navbar .menu a {
+  color: white;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.navbar .menu a:hover {
+  text-decoration: underline;
+}
+
+.contenido {
+  padding: 2rem;
+}
+
+.contenido .producto__titulo {
+  font-size: 20px;
+}
+
+.contenido .producto__descripcion {
+  font-size: 16px;
+}
+
+.boton--primario {
+  background-color: #3498db;
+  color: white;
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton--primario:hover {
+  opacity: 0.9;
+}
+
+.boton--secundario {
+  background-color: #2ecc71;
+  color: white;
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton--secundario:hover {
+  opacity: 0.9;
+}
+
+.footer {
+  text-align: center;
+  padding: 16px;
+  background-color: #3498db;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
